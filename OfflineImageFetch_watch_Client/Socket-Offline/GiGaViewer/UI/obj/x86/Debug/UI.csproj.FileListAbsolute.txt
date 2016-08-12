@@ -1,0 +1,291 @@
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\bin\Debug\UI.exe
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\bin\Debug\UI.pdb
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\bin\Debug\ImageCtrl.dll
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\obj\x86\Debug\UI.GIGAPlayer.resources
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\obj\x86\Debug\UI.exe
+C:\Users\YONG\Desktop\ImageCtrl V4.0（EOC_25）\UI\obj\x86\Debug\UI.pdb
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\obj\x86\Debug\UI.exe
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\obj\x86\Debug\UI.pdb
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\bin\Debug\UI.exe
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\bin\Debug\UI.pdb
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\bin\Debug\ImageCtrl.dll
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\YONG\Desktop\ImageCtrl V5.0\UI\obj\x86\Debug\UI.GIGAViewer.resources
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\UI.exe
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\UI.pdb
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\bin\Debug\UI.exe
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\bin\Debug\UI.pdb
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\bin\Debug\ImageCtrl.dll
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\UI.GIGAViewer.resources
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\bin\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\ImageCtrl V6.0\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\UI.exe
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\UI.pdb
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\bin\Debug\UI.exe
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\bin\Debug\UI.pdb
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\bin\Debug\ImageCtrl.dll
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\bin\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\UI.GIGAViewer.resources
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\YONG\Desktop\图像检索与显示\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\Interop.WMPLib.dll
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\UI.exe
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\UI.pdb
+E:\Data\ImageCtrl V8.0\UI\bin\Debug\UI.exe
+E:\Data\ImageCtrl V8.0\UI\bin\Debug\UI.pdb
+E:\Data\ImageCtrl V8.0\UI\bin\Debug\ImageCtrl.dll
+E:\Data\ImageCtrl V8.0\UI\bin\Debug\ImageCtrl.pdb
+E:\Data\ImageCtrl V8.0\UI\bin\Debug\Interop.WMPLib.dll
+E:\Data\ImageCtrl V8.0\UI\bin\Debug\AxInterop.WMPLib.dll
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\UI.GIGAViewer.resources
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+E:\Data\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\bin\Debug\UI.exe
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\bin\Debug\UI.pdb
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\bin\Debug\ImageCtrl.dll
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\bin\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\UI.GiGaViewer.resources
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\UI.exe
+C:\Users\YONG\Desktop\ImageCtrl V8.0\UI\obj\x86\Debug\UI.pdb
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\bin\Debug\UI.exe
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\bin\Debug\UI.pdb
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\bin\Debug\ImageCtrl.dll
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\bin\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\UI.GiGaViewer.resources
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\UI.exe
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Debug\UI.pdb
+E:\DESKTOP\GiGaViewer V1.0\UI\obj\x86\Debug\Interop.WMPLib.dll
+E:\DESKTOP\GiGaViewer V1.0\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+E:\DESKTOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+E:\DESKTOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.exe
+E:\DESKTOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.pdb
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\Interop.WMPLib.dll
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.exe
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.pdb
+E:\DESK___TOP\GiGaViewer V1.0\UI\bin\Debug\UI.exe
+E:\DESK___TOP\GiGaViewer V1.0\UI\bin\Debug\UI.pdb
+E:\DESK___TOP\GiGaViewer V1.0\UI\bin\Debug\ImageCtrl.dll
+E:\DESK___TOP\GiGaViewer V1.0\UI\bin\Debug\ImageCtrl.pdb
+E:\DESK___TOP\GiGaViewer V1.0\UI\bin\Debug\Interop.WMPLib.dll
+E:\DESK___TOP\GiGaViewer V1.0\UI\bin\Debug\AxInterop.WMPLib.dll
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.GiGaViewer.resources
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+E:\DESK___TOP\GiGaViewer V1.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\YONG\Desktop\2014年年终会议\GiGaViewer V1.0\UI\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\2014年年终会议\GiGaViewer V1.0\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\2014年年终会议\GiGaViewer V1.0\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+C:\Users\YONG\Desktop\2014年年终会议\GiGaViewer V1.0\UI\obj\x86\Debug\UI.exe
+C:\Users\YONG\Desktop\2014年年终会议\GiGaViewer V1.0\UI\obj\x86\Debug\UI.pdb
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\bin\Debug\UI.exe
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\bin\Debug\UI.pdb
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\bin\Debug\ImageCtrl.dll
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\bin\Debug\ImageCtrl.pdb
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\bin\Debug\Interop.WMPLib.dll
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\bin\Debug\AxInterop.WMPLib.dll
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\Interop.WMPLib.dll
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\UI.csproj.ResolveComReference.cache
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\UI.GiGaViewer.resources
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\UI.Properties.Resources.resources
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\UI.exe
+D:\H.Y. Feng\大仪器项目\显示系统\Offline\GiGaViewer Original\UI\obj\x86\Debug\UI.pdb
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\bin\Debug\UI.exe
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\bin\Debug\UI.pdb
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\obj\x86\Debug\UI.exe
+C:\Users\H.Y. Feng\Desktop\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\bin\Debug\UI.exe
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\bin\Debug\UI.pdb
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\bin\Debug\ImageCtrl.dll
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\obj\x86\Debug\UI.GiGaViewer.resources
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\obj\x86\Debug\UI.exe
+C:\Users\H.Y. Feng\Desktop\GiGaViewer vVideo\UI\obj\x86\Debug\UI.pdb
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\obj\x86\Debug\UI.exe
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\obj\x86\Debug\UI.pdb
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\bin\Debug\UI.exe
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\bin\Debug\UI.pdb
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\bin\Debug\ImageCtrl.dll
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\obj\x86\Debug\UI.GiGaViewer.resources
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\H.Y. Feng\Desktop\v 2.0_Video\GiGaViewer v2.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\bin\Debug\UI.exe
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\bin\Debug\UI.pdb
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\bin\Debug\ImageCtrl.dll
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\bin\Debug\ImageCtrl.pdb
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\obj\x86\Debug\UI.GiGaViewer.resources
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\obj\x86\Debug\UI.Properties.Resources.resources
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\obj\x86\Debug\UI.exe
+D:\H.Y. Feng\大仪器项目\显示系统\Online\v2.0\UI\obj\x86\Debug\UI.pdb
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\bin\Debug\UI.exe
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\bin\Debug\UI.pdb
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.exe
+D:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+J:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.exe
+J:\H.Y. Feng\大仪器项目\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+D:\大儀器\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.exe
+D:\大儀器\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+D:\大儀器\显示系统\Online\GiGaViewer\UI\bin\Debug\UI.exe
+D:\大儀器\显示系统\Online\GiGaViewer\UI\bin\Debug\UI.pdb
+D:\大儀器\显示系统\Online\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+D:\大儀器\显示系统\Online\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+D:\大儀器\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+D:\大儀器\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+D:\大儀器\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+D:\大儀器\显示系统\Online\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Debug\UI.exe
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Debug\UI.pdb
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.exe
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.Form2.resources
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.exe
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.exe
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Debug\UI.exe
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Debug\UI.pdb
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.Form2.resources
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\志維\Desktop\显示系统\大儀器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Offline\GiGaViewer\UI\obj\x86\Debug\UI.exe
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Offline\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.exe
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.exe
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.pdb
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Form2.resources
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\志維\Desktop\大儀器項目\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.exe
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.pdb
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Form2.resources
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.exe
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.exe
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.pdb
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Form2.resources
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.exe
+C:\Users\xzz\Desktop\zzzzz\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.exe
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.exe
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.pdb
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Form2.resources
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+D:\zhou\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.exe
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.exe
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.pdb
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Form2.resources
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+E:\Workspace\VS2010\Workspace\ImageFetchOnWindows\viewUI\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+E:\Workspace\VS2010\Aug\Client_OfflineImageFetch_watch\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.exe
+E:\Workspace\VS2010\Aug\Client_OfflineImageFetch_watch\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.exe
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.pdb
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.exe
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\bin\Debug\UI.pdb
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.dll
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\bin\Debug\ImageCtrl.pdb
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.GiGaViewer.resources
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Form2.resources
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.Properties.Resources.resources
+E:\Workspace\VS2010\Aug\OfflineImageFetch_watch_Client\Socket-Offline\GiGaViewer\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache

@@ -1,0 +1,20 @@
+﻿生成启动时间为 2016/8/9 21:23:42。
+     1>项目“E:\Workspace\VS2010\Aug\namespace_transfer\namespace_transfer\namespace_transfer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\namespace_transfer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         e:\Workspace\VS2010\installation\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\namespace_transfer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt namespace_transfer.cpp
+         namespace_transfer.cpp
+       Link:
+         e:\Workspace\VS2010\installation\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\VS2010\Aug\namespace_transfer\Debug\namespace_transfer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\Workspace\VS2010\Aug\namespace_transfer\Debug\namespace_transfer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\VS2010\Aug\namespace_transfer\Debug\namespace_transfer.lib" /MACHINE:X86 Debug\namespace_transfer.obj
+         Debug\stdafx.obj
+         namespace_transfer.vcxproj -> E:\Workspace\VS2010\Aug\namespace_transfer\Debug\namespace_transfer.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\namespace_transfer.unsuccessfulbuild”。
+         正在对“Debug\namespace_transfer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\namespace_transfer\namespace_transfer\namespace_transfer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.41

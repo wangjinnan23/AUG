@@ -1,0 +1,53 @@
+﻿生成启动时间为 2016/8/10 17:15:12。
+     1>项目“E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\OnlineImageStitch_watch\OnlineImageStitch_watch.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Debug\OnlineImageStitch_watch.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“x64\Debug\OnlineImageStitch_watch.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\OnlineImageStitch_watch.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\OnlineImageStitch_watch.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ImageStitch.cpp main.cpp
+         main.cpp
+         ImageStitch.cpp
+     1>ImageStitch.cpp(8): warning C4005: “MAX_PATH”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windef.h(57) : 参见“MAX_PATH”的前一个定义
+     1>ImageStitch.cpp(255): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ImageStitch.cpp(431): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(437): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(438): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(445): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(446): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(447): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(498): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(553): warning C4244: “=”: 从“Pixelf”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(564): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>ImageStitch.cpp(707): warning C4244: “=”: 从“Pixelf”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(750): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(1016): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(1017): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ImageStitch.cpp(1039): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(1040): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(234) : 参见“fopen”的声明
+         Generating Code...
+       Link:
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\x64\Debug\OnlineImageStitch_watch.exe" /INCREMENTAL /NOLOGO mpi.lib ws2_32.lib opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\x64\Debug\OnlineImageStitch_watch.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\x64\Debug\OnlineImageStitch_watch.lib" /MACHINE:X64 x64\Debug\ImageStitch.obj
+         x64\Debug\main.obj
+         x64\Debug\stdafx.obj
+         OnlineImageStitch_watch.vcxproj -> E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\x64\Debug\OnlineImageStitch_watch.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\OnlineImageStitch_watch.unsuccessfulbuild”。
+         正在对“x64\Debug\OnlineImageStitch_watch.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\OnlineImageStitch_watch\OnlineImageStitch_watch.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.47

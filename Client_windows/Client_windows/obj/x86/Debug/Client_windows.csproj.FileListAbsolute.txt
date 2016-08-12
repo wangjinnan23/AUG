@@ -1,0 +1,10 @@
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\bin\Debug\Client_windows.exe
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\bin\Debug\Client_windows.pdb
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\bin\Debug\Client_b.exe
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\bin\Debug\Client_b.pdb
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\obj\x86\Debug\Client_windows.csprojResolveAssemblyReference.cache
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\obj\x86\Debug\Client_windows.Properties.Resources.resources
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\obj\x86\Debug\Client_windows.csproj.GenerateResource.Cache
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\obj\x86\Debug\Client_windows.exe
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\obj\x86\Debug\Client_windows.pdb
+E:\Workspace\VS2010\Aug\Client_windows\Client_windows\obj\x86\Debug\Client_windows.Client_windows.resources

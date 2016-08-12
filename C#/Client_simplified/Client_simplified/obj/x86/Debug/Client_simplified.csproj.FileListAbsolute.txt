@@ -1,0 +1,8 @@
+E:\Workspace\VS2010\Aug\C#\Client_simplified\Client_simplified\bin\Debug\Client_simplified.exe
+E:\Workspace\VS2010\Aug\C#\Client_simplified\Client_simplified\bin\Debug\Client_simplified.pdb
+E:\Workspace\VS2010\Aug\C#\Client_simplified\Client_simplified\obj\x86\Debug\Client_simplified.Properties.Resources.resources
+E:\Workspace\VS2010\Aug\C#\Client_simplified\Client_simplified\obj\x86\Debug\Client_simplified.csproj.GenerateResource.Cache
+E:\Workspace\VS2010\Aug\C#\Client_simplified\Client_simplified\obj\x86\Debug\Client_simplified.exe
+E:\Workspace\VS2010\Aug\C#\Client_simplified\Client_simplified\obj\x86\Debug\Client_simplified.pdb
+E:\Workspace\VS2010\Aug\C#\Client_simplified\Client_simplified\obj\x86\Debug\Client_simplified.Client.resources
+E:\Workspace\VS2010\Aug\C#\Client_simplified\Client_simplified\obj\x86\Debug\Client_simplified.csprojResolveAssemblyReference.cache

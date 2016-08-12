@@ -1,0 +1,9 @@
+E:\Workspace\VS2010\Aug\C#\Hello\Hello\obj\x86\Debug\Hello.Form1.resources
+E:\Workspace\VS2010\Aug\C#\Hello\Hello\obj\x86\Debug\Hello.Properties.Resources.resources
+E:\Workspace\VS2010\Aug\C#\Hello\Hello\obj\x86\Debug\Hello.csproj.GenerateResource.Cache
+E:\Workspace\VS2010\Aug\C#\Hello\Hello\bin\Debug\Hello.exe
+E:\Workspace\VS2010\Aug\C#\Hello\Hello\bin\Debug\Hello.pdb
+E:\Workspace\VS2010\Aug\C#\Hello\Hello\obj\x86\Debug\Hello.exe
+E:\Workspace\VS2010\Aug\C#\Hello\Hello\obj\x86\Debug\Hello.pdb
+E:\Workspace\VS2010\Aug\C#\Server_simplified\Hello\obj\x86\Debug\Hello.exe
+E:\Workspace\VS2010\Aug\C#\Server_simplified\Hello\obj\x86\Debug\Hello.pdb

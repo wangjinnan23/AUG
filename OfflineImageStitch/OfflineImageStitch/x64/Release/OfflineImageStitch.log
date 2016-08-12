@@ -1,0 +1,54 @@
+﻿生成启动时间为 2016/8/10 17:31:47。
+     1>项目“E:\Workspace\VS2010\Aug\OfflineImageStitch\OfflineImageStitch\OfflineImageStitch.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\OfflineImageStitch.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\OfflineImageStitch.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ImageStitch.cpp main.cpp
+         ImageStitch.cpp
+     1>ImageStitch.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>ImageStitch.cpp(6): warning C4005: “MAX_PATH”: 宏重定义
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windef.h(57) : 参见“MAX_PATH”的前一个定义
+     1>ImageStitch.cpp(229): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(230): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ImageStitch.cpp(375): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(381): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(382): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(389): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(390): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(391): warning C4244: “=”: 从“const float”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(406): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(437): warning C4244: “=”: 从“Pixelf”转换到“uchar”，可能丢失数据
+     1>ImageStitch.cpp(484): warning C4244: “=”: 从“Pixelf”转换到“Pixel”，可能丢失数据
+     1>ImageStitch.cpp(504): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(656): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>ImageStitch.cpp(523): warning C4101: “onlineRoot”: 未引用的局部变量
+     1>ImageStitch.cpp(683): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(684): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ImageStitch.cpp(703): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ImageStitch.cpp(704): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Workspace\VS2010\installation\install\VC\include\stdio.h(234) : 参见“fopen”的声明
+         main.cpp
+       Link:
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\VS2010\Aug\OfflineImageStitch\x64\Release\OfflineImageStitch.exe" /INCREMENTAL:NO /NOLOGO ws2_32.lib mpi.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\Workspace\VS2010\Aug\OfflineImageStitch\x64\Release\OfflineImageStitch.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\VS2010\Aug\OfflineImageStitch\x64\Release\OfflineImageStitch.lib" /MACHINE:X64 x64\Release\ImageStitch.obj
+         x64\Release\main.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         OfflineImageStitch.vcxproj -> E:\Workspace\VS2010\Aug\OfflineImageStitch\x64\Release\OfflineImageStitch.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\OfflineImageStitch.unsuccessfulbuild”。
+         正在对“x64\Release\OfflineImageStitch.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\OfflineImageStitch\OfflineImageStitch\OfflineImageStitch.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.80

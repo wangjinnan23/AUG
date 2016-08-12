@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/8/7 21:26:12。
+     1>项目“E:\Workspace\VS2010\Aug\Socket_samples\Server_cpp\Server_cpp\Server_cpp.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Server_cpp.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\Server_cpp.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Workspace\VS2010\installation\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Server_cpp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Workspace\VS2010\installation\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Server_cpp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Server_cpp.cpp
+         Server_cpp.cpp
+     1>e:\workspace\vs2010\aug\socket_samples\server_cpp\server_cpp\server_cpp.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\workspace\vs2010\installation\install\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\vs2010\aug\socket_samples\server_cpp\server_cpp\server_cpp.cpp(85): warning C4551: 缺少参数列表的函数调用
+       Link:
+         e:\Workspace\VS2010\installation\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\VS2010\Aug\Socket_samples\Server_cpp\Debug\Server_cpp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\Workspace\VS2010\Aug\Socket_samples\Server_cpp\Debug\Server_cpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\VS2010\Aug\Socket_samples\Server_cpp\Debug\Server_cpp.lib" /MACHINE:X86 Debug\Server_cpp.obj
+         Debug\stdafx.obj
+         Server_cpp.vcxproj -> E:\Workspace\VS2010\Aug\Socket_samples\Server_cpp\Debug\Server_cpp.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Server_cpp.unsuccessfulbuild”。
+         正在对“Debug\Server_cpp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\Socket_samples\Server_cpp\Server_cpp\Server_cpp.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.88

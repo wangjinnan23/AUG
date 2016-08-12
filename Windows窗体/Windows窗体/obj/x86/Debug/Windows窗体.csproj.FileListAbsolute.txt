@@ -1,0 +1,7 @@
+E:\Workspace\VS2010\Aug\Windows窗体\Windows窗体\obj\x86\Debug\Windows窗体.Form100.resources
+E:\Workspace\VS2010\Aug\Windows窗体\Windows窗体\obj\x86\Debug\Windows窗体.Properties.Resources.resources
+E:\Workspace\VS2010\Aug\Windows窗体\Windows窗体\obj\x86\Debug\Windows窗体.csproj.GenerateResource.Cache
+E:\Workspace\VS2010\Aug\Windows窗体\Windows窗体\bin\Debug\Windows窗体.exe
+E:\Workspace\VS2010\Aug\Windows窗体\Windows窗体\bin\Debug\Windows窗体.pdb
+E:\Workspace\VS2010\Aug\Windows窗体\Windows窗体\obj\x86\Debug\Windows窗体.exe
+E:\Workspace\VS2010\Aug\Windows窗体\Windows窗体\obj\x86\Debug\Windows窗体.pdb

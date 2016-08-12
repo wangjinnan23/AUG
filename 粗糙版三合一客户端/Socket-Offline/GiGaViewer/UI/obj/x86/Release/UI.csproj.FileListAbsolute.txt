@@ -1,0 +1,14 @@
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\YONG\Desktop\GiGaViewer V1.0\UI\obj\x86\Release\UI.csproj.ResolveComReference.cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Release\UI.exe
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Release\UI.pdb
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Release\ImageCtrl.dll
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\bin\Release\ImageCtrl.pdb
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Release\UI.csprojResolveAssemblyReference.cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Release\UI.GiGaViewer.resources
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Release\UI.Form2.resources
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Release\UI.Properties.Resources.resources
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Release\UI.csproj.GenerateResource.Cache
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Release\UI.exe
+D:\大儀器\自然科学基金大仪器\sources\client\viewUI\Online\GiGaViewer\UI\obj\x86\Release\UI.pdb
