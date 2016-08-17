@@ -1024,7 +1024,7 @@ void ImageStitch::generateStitchParams()
 	m_nBlockRows = (m_nHeightGlobal % m_nHeightBlock == 0) ? (m_nHeightGlobal / m_nHeightBlock) : (m_nHeightGlobal / m_nHeightBlock + 1);
 	m_nBlockCols = (m_nWidthGlobal % m_nWidthBlock == 0) ? (m_nWidthGlobal / m_nWidthBlock) : (m_nWidthGlobal / m_nWidthBlock + 1);
 	m_nBlockCnt = m_nBlockRows * m_nBlockCols;
-	int fileCnt = m_nCameraCnt + m_nBlockCnt + 1;
+	int fileCnt = m_nCameraCnt + m_nBlockCnt + 1; //36+98+1;
 	FILE** fout = new FILE*[fileCnt];
 	if(fout == NULL) 
 	{
@@ -1032,7 +1032,7 @@ void ImageStitch::generateStitchParams()
 		fflush(stdout);
 		terminate(ERROR_MALLOC);
 	}
-	for (int fileIdx = 0; fileIdx < fileCnt; fileIdx++) 
+	for (int fileIdx = 0; fileIdx < fileCnt; fileIdx++) //给135个文件取名
 	{
 		int groupType, groupIdx;
 		pid2gid(fileIdx, m_nCameraCnt, m_nBlockCnt, groupIdx, groupType);
@@ -1047,7 +1047,7 @@ void ImageStitch::generateStitchParams()
 	}
 
 	int cnt;
-	fread(&cnt, sizeof(int), 1, fin);
+	fread(&cnt, sizeof(int), 1, fin);//映射表的点数
 	MapTableEntry* mapTable = new MapTableEntry[cnt];
 	if(mapTable == NULL) 
 	{

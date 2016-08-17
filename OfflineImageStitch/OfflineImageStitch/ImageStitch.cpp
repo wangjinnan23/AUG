@@ -248,7 +248,7 @@ void ImageStitch::load(IN FILE* fin) {
 	}
 	if (m_nGtype == PROCESS_TYPE_MAP || m_nGtype == PROCESS_TYPE_REDUCE || m_nGtype == PROCESS_TYPE_COMMUNICATION) {
 		for (int i = 0; i < m_nBlockCnt; i++) {
-			BlockParam* blockParam = &(m_pBlockParams[i]);
+			BlockParam* blockParam = &(m_pBlockParams[i]); //对前者的赋值，目的在于通过指针对后者赋值
 			blockParam->m_pMapEntryLocalNumVec = new int[m_nPcnt];
 			if(blockParam->m_pMapEntryLocalNumVec == NULL) {
 				printf("Process %d could not malloc!\n", m_nPidx);
@@ -442,6 +442,7 @@ int ImageStitch::mapModule() {
 void ImageStitch::gatherModule() {
 	if (m_nGtype == PROCESS_TYPE_MAP) 
 	{
+std::cout<<"Map process gather .Pidx is "<<m_nPidx<<"\n"<<endl;
 		if(!m_isOnline)
 			for (int i = 0; i < m_nBlockCnt; i++) 
 			{
@@ -453,6 +454,7 @@ void ImageStitch::gatherModule() {
 	} 
 	else if (m_nGtype == PROCESS_TYPE_REDUCE) 
 	{
+std::cout<<"Reduce process gather .Pidx is "<<m_nPidx<<"\n"<<endl;
 		BlockParam* tmp = &(m_pBlockParams[m_nGidx]);
 		int root = m_nPidx;
 		safeDelete<Pixel>(m_pMapResultGlobal);
@@ -681,7 +683,11 @@ void ImageStitch::generateStitchParams() {
 		terminate(ERROR_MALLOC);
 	}
 	sprintf(filename, "%s", (m_sDirMapTable + m_sFileFormatMapTable).c_str());
+
+printf("0 Process %d open MapTable %s . \n",m_nPidx,filename);
+
 	FILE* fin = fopen(filename, "rb");
+printf("1 Process %d open MapTable %s . \n",m_nPidx,filename);
 	if (fin == nullptr) {
 		printf("Process %d could not open file: %s!\n", m_nPidx, filename);
 		fflush(stdout);
@@ -702,6 +708,7 @@ void ImageStitch::generateStitchParams() {
 		pid2gid(fileIdx, m_nCameraCnt, m_nBlockCnt, groupIdx, groupType);
 		sprintf(filename, (m_sDirStitchParam + m_sFileFormatStitchParam).c_str(), groupType, groupIdx);
 		fout[fileIdx] = fopen(filename, "wb");
+printf("Process %d open 134 %s . \n",m_nPidx,filename);
 		if (fout[fileIdx] == nullptr) {
 			printf("Process %d could not open file: %s!\n", m_nPidx, filename);
 			fflush(stdout);
@@ -719,6 +726,13 @@ void ImageStitch::generateStitchParams() {
 	}
 	fread(mapTable, sizeof(MapTableEntry), cnt, fin);
 	fclose(fin);
+//
+	ofstream File_write;
+//	File_write.open("E:/Workspace/VS2010/Aug/OfflineImageStitch/Block_Cam_points.txt",ios::out|ios::binary);
+	File_write.open("E:/Library/data/ImageStitch/OfflineImageStitch/StitchParams/Block_Cam_points.txt",ios::out|ios::binary);
+ 
+//
+
 	for (int i = 0; i < m_nBlockRows; i++) {
 		for (int j = 0; j < m_nBlockCols; j++) {
 			int blockIdx = i * m_nBlockCols + j;
@@ -735,8 +749,24 @@ void ImageStitch::generateStitchParams() {
 				if ((mapTable[k].xGlobal >= xLeftTop && mapTable[k].xGlobal <= xRightBottom) &&
 				    (mapTable[k].yGlobal >= yLeftTop && mapTable[k].yGlobal <= yRightBottom))
 					mapEntryLocalNumVec[mapTable[k].cameraIdx]++;
+
+std::cout<<"The "<<m_nBlockCols*i+j<<"Block arrange 36 Cam\n";
+for(int hk=0;hk<36;hk++)
+{
+	File_write<<mapEntryLocalNumVec[hk]<<" ";
+	std::cout<<mapEntryLocalNumVec[hk]<<"  ";
+
+}
+File_write<<"\r\n";
+std::cout<<"\n";
+ fflush(stdout);
+ 
 			for (int fileIdx = 0; fileIdx < fileCnt; fileIdx++)
+			{
 				fwrite(mapEntryLocalNumVec, sizeof(int), m_nCameraCnt, fout[fileIdx]);
+			 }
+
+
 			safeDelete<int>(mapEntryLocalNumVec);
 
 			for (int k = 0; k < cnt; k++) {
@@ -755,11 +785,16 @@ void ImageStitch::generateStitchParams() {
 					tmpGlobal.xGlobal -= xLeftTop;
 					tmpGlobal.yGlobal -= yLeftTop;
 					fwrite(&tmpGlobal, sizeof(MapEntryGlobal), 1, fout[fileIdx]);
+
+				 
+ 
 				}
 			}
 		}
 	}
 
+		File_write.close();
+	 
 	safeDelete<MapTableEntry>(mapTable);
 	for (int fileIdx = 0; fileIdx < fileCnt; fileIdx++)
 		fclose(fout[fileIdx]);
@@ -768,6 +803,7 @@ void ImageStitch::generateStitchParams() {
 	toc();
 	printf("Process %d finishes generating scale parameters.\n", m_nPidx);
 	printf("Time: %f\n", m_dElapseTime);
+system("pause");
 	fflush(stdout);
 	return;
 }
