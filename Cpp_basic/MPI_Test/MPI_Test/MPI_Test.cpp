@@ -123,28 +123,33 @@
 
 int main(int argc, char *argv[])
 {
-    int buffer[6],buffer2[70];
+    int buffer[16],buffer2[70];
     int rank, size, i;
-    int receive_counts[4] = { 0, 1, 2, 3 };
-    int receive_displacements[4] = { 7, 5, 3, 0 };
+    int receive_counts[6] = { 1, 1, 2, 3,4,5 };
+    int receive_displacements[6] = { 0, 1, 2, 4 ,7,11};
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    if (size != 4)
-    {
-        if (rank == 0)
-        {
-            printf("Please run with 4 processes\n");fflush(stdout);
-        }
-        MPI_Finalize();
-        return 0;
-    }
-    for (i=0; i<rank; i++)
+    //if (size != 4)
+    //{
+    //    if (rank == 0)
+    //    {
+    //        printf("Please run with 4 processes\n");fflush(stdout);
+    //    }
+    //    MPI_Finalize();
+    //    return 0;
+    //}
+    for (i=0; i<=rank; i++)
     {
         buffer[i] = rank;
     }
-    MPI_Gatherv(buffer, rank, MPI_INT, buffer2, receive_counts, receive_displacements, MPI_INT, 0, MPI_COMM_WORLD);
+// 	if((rank!=1)&&(rank!=0)&&(rank!=2))
+ // 	if(rank!=3)
+   {
+	   printf("rank is %d\n",rank);
+	   MPI_Gatherv(buffer, receive_counts[rank], MPI_INT, buffer2, receive_counts, receive_displacements, MPI_INT, 0, MPI_COMM_WORLD);
+	}
     if (rank == 0)
     {
         for (i=0; i<70; i++)

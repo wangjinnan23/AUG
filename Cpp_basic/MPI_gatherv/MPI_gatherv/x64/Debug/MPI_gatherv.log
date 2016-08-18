@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/8/17 20:43:17。
+     1>项目“E:\Workspace\VS2010\Aug\Cpp_basic\MPI_gatherv\MPI_gatherv\MPI_gatherv.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Debug\MPI_gatherv.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“x64\Debug\MPI_gatherv.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\MPI_gatherv.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\MPI_gatherv.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt MPI_gatherv.cpp
+         MPI_gatherv.cpp
+     1>e:\workspace\vs2010\aug\cpp_basic\mpi_gatherv\mpi_gatherv\mpi_gatherv.cpp(18): warning C4700: 使用了未初始化的局部变量“comm”
+     1>e:\workspace\vs2010\aug\cpp_basic\mpi_gatherv\mpi_gatherv\mpi_gatherv.cpp(20): warning C4700: 使用了未初始化的局部变量“stride”
+     1>e:\workspace\vs2010\aug\cpp_basic\mpi_gatherv\mpi_gatherv\mpi_gatherv.cpp(35): warning C4700: 使用了未初始化的局部变量“root”
+       Link:
+         e:\Workspace\VS2010\installation\install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\VS2010\Aug\Cpp_basic\MPI_gatherv\x64\Debug\MPI_gatherv.exe" /INCREMENTAL /NOLOGO mpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\Workspace\VS2010\Aug\Cpp_basic\MPI_gatherv\x64\Debug\MPI_gatherv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\VS2010\Aug\Cpp_basic\MPI_gatherv\x64\Debug\MPI_gatherv.lib" /MACHINE:X64 x64\Debug\MPI_gatherv.obj
+         x64\Debug\stdafx.obj
+         MPI_gatherv.vcxproj -> E:\Workspace\VS2010\Aug\Cpp_basic\MPI_gatherv\x64\Debug\MPI_gatherv.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\MPI_gatherv.unsuccessfulbuild”。
+         正在对“x64\Debug\MPI_gatherv.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\Cpp_basic\MPI_gatherv\MPI_gatherv\MPI_gatherv.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.68

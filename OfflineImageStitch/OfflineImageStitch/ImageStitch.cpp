@@ -442,7 +442,7 @@ int ImageStitch::mapModule() {
 void ImageStitch::gatherModule() {
 	if (m_nGtype == PROCESS_TYPE_MAP) 
 	{
-std::cout<<"Map process gather .Pidx is "<<m_nPidx<<"\n"<<endl;
+std::cout<<"Map process gather .Pidx is "<<m_nPidx<<" Send data to the 98 Block \n"<<endl;
 		if(!m_isOnline)
 			for (int i = 0; i < m_nBlockCnt; i++) 
 			{
@@ -450,17 +450,29 @@ std::cout<<"Map process gather .Pidx is "<<m_nPidx<<"\n"<<endl;
 				int root = gid2pid(i, PROCESS_TYPE_REDUCE, m_nCameraCnt, m_nBlockCnt);
 				MPI_Gatherv((void*)m_pMapResultVec[i], tmp->m_nMapEntryLocalNum, m_mpiDataTypeForMap, (void*)nullptr,
 					tmp->m_pMapEntryLocalNumVec, tmp->m_pMapEntryDisp, m_mpiDataTypeForMap, root, MPI_COMM_WORLD);
+
+if(m_nPidx==1)
+std::cout<<" "<<tmp->m_pMapEntryLocalNumVec[m_nPidx]<<" should the same as "<<tmp->m_nMapEntryLocalNum<<" offset "<<tmp->m_pMapEntryDisp[m_nPidx]<<" ";
+if(m_nPidx==2)
+std::cout<<" "<<tmp->m_pMapEntryLocalNumVec[m_nPidx]<<" should the same as "<<tmp->m_nMapEntryLocalNum<<" offset "<<tmp->m_pMapEntryDisp[m_nPidx]<<" ";
+if(m_nPidx==3)
+std::cout<<" "<<tmp->m_pMapEntryLocalNumVec[m_nPidx]<<" should the same as "<<tmp->m_nMapEntryLocalNum<<" offset "<<tmp->m_pMapEntryDisp[m_nPidx]<<" ";
 			}
+			std::cout<<"\r\n\n";
 	} 
 	else if (m_nGtype == PROCESS_TYPE_REDUCE) 
 	{
-std::cout<<"Reduce process gather .Pidx is "<<m_nPidx<<"\n"<<endl;
+std::cout<<"Reduce process gather .Pidx is "<<m_nPidx<<" Receive data from the 35 Cam \n"<<endl;
 		BlockParam* tmp = &(m_pBlockParams[m_nGidx]);
 		int root = m_nPidx;
 		safeDelete<Pixel>(m_pMapResultGlobal);
 		m_pMapResultGlobal = new Pixel[tmp->m_nMapEntryGlobalNum];
 		MPI_Gatherv(NULL, 0, m_mpiDataTypeForMap, (void*)m_pMapResultGlobal,
 		tmp->m_pMapEntryLocalNumVec, tmp->m_pMapEntryDisp, m_mpiDataTypeForMap, root, MPI_COMM_WORLD);
+//for(int i=0;i<35;i++)
+//std::cout<<"-"<<tmp->m_pMapEntryLocalNumVec[i]<<"-";
+std::cout<<"\n---received data----------"<<tmp->m_pMapEntryLocalNumVec[root]<<"---------------------------\n";
+std::cout<<"\n---the offset --------"<< (int)(tmp->m_pMapEntryDisp[root])<<"---------------------------\n";
 	}
 }
 
@@ -718,6 +730,8 @@ printf("Process %d open 134 %s . \n",m_nPidx,filename);
 
 	int cnt;
 	fread(&cnt, sizeof(int), 1, fin);
+printf("Process %d This Maptable has %d points . \n",m_nPidx,cnt);
+
 	MapTableEntry* mapTable = new MapTableEntry[cnt];
 	if(mapTable == NULL) {
 		printf("Process %d could not malloc!\n", m_nPidx);
@@ -730,7 +744,8 @@ printf("Process %d open 134 %s . \n",m_nPidx,filename);
 	ofstream File_write;
 //	File_write.open("E:/Workspace/VS2010/Aug/OfflineImageStitch/Block_Cam_points.txt",ios::out|ios::binary);
 	File_write.open("E:/Library/data/ImageStitch/OfflineImageStitch/StitchParams/Block_Cam_points.txt",ios::out|ios::binary);
- 
+ File_write<<"该映射表共有 "<<cnt<<"个点\r\n";
+ int sum_check=0;
 //
 
 	for (int i = 0; i < m_nBlockRows; i++) {
@@ -751,11 +766,11 @@ printf("Process %d open 134 %s . \n",m_nPidx,filename);
 					mapEntryLocalNumVec[mapTable[k].cameraIdx]++;
 
 std::cout<<"The "<<m_nBlockCols*i+j<<"Block arrange 36 Cam\n";
-for(int hk=0;hk<36;hk++)
+for(int hk=0;hk<m_nCameraCnt;hk++)
 {
 	File_write<<mapEntryLocalNumVec[hk]<<" ";
 	std::cout<<mapEntryLocalNumVec[hk]<<"  ";
-
+	sum_check+=mapEntryLocalNumVec[hk];
 }
 File_write<<"\r\n";
 std::cout<<"\n";
@@ -792,7 +807,8 @@ std::cout<<"\n";
 			}
 		}
 	}
-
+	File_write<<"\r\n计算出的总点数是  "<<sum_check;
+	std::cout<<"\r\n计算出的总点数是  "<<sum_check<<"\n  ";
 		File_write.close();
 	 
 	safeDelete<MapTableEntry>(mapTable);
