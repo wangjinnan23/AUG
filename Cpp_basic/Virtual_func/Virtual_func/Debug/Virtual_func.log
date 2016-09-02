@@ -1,0 +1,19 @@
+﻿生成启动时间为 2016/8/23 15:04:50。
+     1>项目“E:\Workspace\VS2010\Aug\Cpp_basic\Virtual_func\Virtual_func\Virtual_func.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Virtual_func.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         e:\Workspace\VS2010\installation\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\VS2010\Aug\Cpp_basic\Virtual_func\Debug\Virtual_func.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\Workspace\VS2010\Aug\Cpp_basic\Virtual_func\Debug\Virtual_func.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\VS2010\Aug\Cpp_basic\Virtual_func\Debug\Virtual_func.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\Virtual_func.obj
+         Virtual_func.vcxproj -> E:\Workspace\VS2010\Aug\Cpp_basic\Virtual_func\Debug\Virtual_func.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Virtual_func.unsuccessfulbuild”。
+         正在对“Debug\Virtual_func.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\Cpp_basic\Virtual_func\Virtual_func\Virtual_func.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.15

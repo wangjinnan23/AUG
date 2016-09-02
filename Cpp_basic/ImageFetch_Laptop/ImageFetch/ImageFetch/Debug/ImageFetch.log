@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016/8/12 16:34:37。
+     1>项目“E:\Workspace\VS2010\Aug\Cpp_basic\ImageFetch\ImageFetch\ImageFetch.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ImageFetch.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Workspace\VS2010\installation\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\workspace\vs2010\aug\cpp_basic\imagefetch\imagefetch\main.cpp(10): error C2059: 语法错误:“]”
+     1>e:\workspace\vs2010\aug\cpp_basic\imagefetch\imagefetch\main.cpp(10): error C3861: “MPI_Init”: 找不到标识符
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\Cpp_basic\ImageFetch\ImageFetch\ImageFetch.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.16

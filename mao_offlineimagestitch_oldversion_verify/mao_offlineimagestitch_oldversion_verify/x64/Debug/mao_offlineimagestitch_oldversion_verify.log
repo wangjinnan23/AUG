@@ -1,7 +1,8 @@
-﻿生成启动时间为 2016/8/7 21:16:30。
+﻿生成启动时间为 2016/9/2 10:06:06。
      1>项目“E:\Workspace\VS2010\Aug\mao_offlineimagestitch_oldversion_verify\mao_offlineimagestitch_oldversion_verify\mao_offlineimagestitch_oldversion_verify.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“x64\Debug\mao_offlineimagestitch_oldversion_verify.lastbuildstate”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : 对路径“E:\WORKSPACE\VS2010\AUG\MAO_OFFLINEIMAGESTITCH_OLDVERSION_VERIFY\X64\DEBUG\MAO_OFFLINEIMAGESTITCH_OLDVERSION_VERIFY.EXE”的访问被拒绝。
        InitializeBuildStatus:
          正在创建“x64\Debug\mao_offlineimagestitch_oldversion_verify.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
@@ -19,13 +20,13 @@
                  e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
      1>ImageStitch.cpp(934): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
-     1>ImageStitch.cpp(1222): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ImageStitch.cpp(1223): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
-     1>ImageStitch.cpp(1223): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ImageStitch.cpp(1224): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\Workspace\VS2010\installation\install\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>ImageStitch.cpp(1244): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ImageStitch.cpp(1245): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\Workspace\VS2010\installation\install\VC\include\stdio.h(371) : 参见“sprintf”的声明
-     1>ImageStitch.cpp(1245): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ImageStitch.cpp(1246): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\Workspace\VS2010\installation\install\VC\include\stdio.h(234) : 参见“fopen”的声明
          Generating Code...
        Link:
@@ -41,4 +42,4 @@
 
 生成成功。
 
-已用时间 00:00:02.08
+已用时间 00:00:02.40

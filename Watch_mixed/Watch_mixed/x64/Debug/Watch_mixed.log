@@ -1,7 +1,8 @@
-﻿生成启动时间为 2016/8/22 12:03:52。
+﻿生成启动时间为 2016/8/24 11:02:00。
      1>项目“E:\Workspace\VS2010\Aug\Watch_mixed\Watch_mixed\Watch_mixed.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“x64\Debug\Watch_mixed.lastbuildstate”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : 对路径“E:\WORKSPACE\VS2010\AUG\WATCH_MIXED\X64\DEBUG\WATCH_MIXED.EXE”的访问被拒绝。
        InitializeBuildStatus:
          正在创建“x64\Debug\Watch_mixed.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
@@ -47,12 +48,9 @@
          x64\Debug\ImageStitch.obj
          x64\Debug\stdafx.obj
          x64\Debug\Watch_mixed.obj
-         Watch_mixed.vcxproj -> E:\Workspace\VS2010\Aug\Watch_mixed\x64\Debug\Watch_mixed.exe
-       FinalizeBuildStatus:
-         正在删除文件“x64\Debug\Watch_mixed.unsuccessfulbuild”。
-         正在对“x64\Debug\Watch_mixed.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\Workspace\VS2010\Aug\Watch_mixed\Watch_mixed\Watch_mixed.vcxproj”(rebuild 个目标)的操作。
+     1>LINK : fatal error LNK1104: 无法打开文件“E:\Workspace\VS2010\Aug\Watch_mixed\x64\Debug\Watch_mixed.exe”
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\Watch_mixed\Watch_mixed\Watch_mixed.vcxproj”(rebuild 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:05.64
+已用时间 00:00:09.48

@@ -145,22 +145,20 @@ void ImageFetchLocal::Run() {
 				    StartY =  (max(ImageY1, Up) - Up) / (1 << Scale),
 				    EndY = (min(ImageY2, Down) - Up) / (1 << Scale);
 
-
-
+if(Pidx==5||Pidx==7)
+std::cout<<"Pidx  "<<Pidx<<"   BlockIdx  "<<setw(5)<<iter->BlockIdx<<endl;
 				if(EndX > StartX && EndY > StartY && StartX >= 0 && StartY >= 0) 
 				{
 					sprintf(ImageDirectory, ImageFormat.data(), Scale, iter->BlockIdx, Frame);
-
+std::cout<<"Bong  "<<"BlockIdx  "<<setw(5)<<iter->BlockIdx<<"   Pidx  "<<Pidx<<endl;
 					Mat Image = imread(ImageDirectory,CV_LOAD_IMAGE_GRAYSCALE);
-					
+/*std::cout<<"Pidx "<<Pidx<<" success read localimage in: "<<ImageDirectory<<std::endl;
+std::cout<<"BlockIdx "<<setw(5)<<iter->BlockIdx<<setw(7)<<" ImageX1 "<<setw(5)<< ImageX1 <<" ImageX2 "<<setw(5)<<ImageX2 <<" ImageY1 "<<setw(5)<<ImageY1<<" ImageY2 "<<setw(5)<<ImageY2 <<std::endl;
+std::cout<<"The location  "<<": StartX "<<setw(5)<<StartX<<"  EndX "<<setw(5)<<EndX<<"  StartY "<<setw(5)<<StartY<<"  EndY "<<setw(5)<<EndY<<std::endl;
+fflush(stdout);		*/				
 
-					//char aaaaa[255];
-					//sprintf(aaaaa, "D:\\Pidx_%d_read_number_%d.png",Pidx,iter->BlockIdx);
-					//imwrite(aaaaa,Image);
 
-					//if(!Image.empty()){
-						cout<<"Pidx "<<Pidx<<" success read localimage in: "<<ImageDirectory<<endl;
-					//}
+					 
 
 					if(channel == 3) cvtColor(Image, LocalImage, CV_RGB2GRAY);
 				    else LocalImage = Image;
@@ -172,8 +170,15 @@ void ImageFetchLocal::Run() {
 						std::cout<<"Local Image is not continuous"<<endl;			
 					}
 
-					int StartYlocal = (max(ImageY1, Up) - ImageY1) / (1 << Scale), EndYlocal = (min(ImageY2, Down) - ImageY1) / (1 << Scale),StartXlocal = (max(ImageX1, Left) - ImageX1) / (1 << Scale), EndXlocal = (min(ImageX2, Right) - ImageX1) / (1 << Scale);
+					int StartYlocal = (max(ImageY1, Up) - ImageY1) / (1 << Scale);
+					int EndYlocal = (min(ImageY2, Down) - ImageY1) / (1 << Scale);
+					int StartXlocal = (max(ImageX1, Left) - ImageX1) / (1 << Scale);				
+					int EndXlocal = (min(ImageX2, Right) - ImageX1) / (1 << Scale);
 
+Mat roi_img = Image(Range(StartYlocal,EndYlocal),Range(StartXlocal,EndXlocal));
+char aaaaa[255];
+sprintf(aaaaa, "E:\\store\\GoodPidx_%d_read_number_%d.png",Pidx,iter->BlockIdx);
+imwrite(aaaaa,roi_img);
 					Pixel *pImage = (Pixel*)Image.data + (StartYlocal * BlockWidth )/( 1<<Scale)+StartXlocal ;
 
 				//	Pixel *pImage = (Pixel*)Image.data + StartY * BlockWidth  /( 1<<Scale)+ StartX;
@@ -215,10 +220,12 @@ void ImageFetchLocal::Run() {
 
 			if(BufLen > 0)
 				{ 
-			cout<<"Pidx:  "<<Pidx<<" send data to o process!-begin "<<endl;
+std::cout<<"Pidx is "<<Pidx<<" Should send data to Comm. DataLen is "<<BufLen<<std::endl;
+fflush(stdout);
 			MPI_Send(ImageBuffer, BufLen * channel, mpiDataForImage, root, 0, MPI_COMM_WORLD);
-			cout<<"Pidx:  "<<Pidx<<" send data to o process!-end "<<endl;  
-			fflush(stdout);}
+std::cout<<"Pidx is "<<Pidx<<" Have   send data to Comm. DataLen is "<<BufLen<<std::endl;
+fflush(stdout);
+			}
 		}
 	}
 }

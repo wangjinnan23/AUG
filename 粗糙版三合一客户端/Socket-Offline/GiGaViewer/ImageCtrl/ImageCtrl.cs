@@ -45,7 +45,7 @@ namespace ImageCtrl
 
         public Rectangle m_showImgRect = new Rectangle();
 
-        Rectangle destRect = new Rectangle(0, 0, 1000, 500);////修改图片显示框大小后
+        Rectangle destRect = new Rectangle(0, 0, 1023, 390);////修改图片显示框大小后
       
         //Rectangle destRect = new Rectangle(0, 0, 682, 260);//add rectangle
         
@@ -78,7 +78,7 @@ namespace ImageCtrl
             UpdateScrollbarInit();
         }
 
-        private void ImageCtrl_Paint(object sender, PaintEventArgs e)
+        public void ImageCtrl_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.FillRectangle(Brushes.Black, m_scrRectShow);
             if (m_imgShow != null)         
@@ -93,7 +93,7 @@ namespace ImageCtrl
         private void ImageCtrl_Resize(object sender, EventArgs e)
         {
             //UpdateRectShow();
-            //UpdateMainImg();
+           // UpdateMainImg();
             //UpdateScrollbar();
 
             this.Refresh();
@@ -159,7 +159,7 @@ namespace ImageCtrl
             
             m_imgShow = m_socketFunc.GetImage(m_frameNum, m_scales[m_scaleIndex], m_showImgRect);//call socket image to save 
 
-            m_imgShow.Save("1.jpg");
+            m_imgShow.Save("E:/Workspace/VS2010/Aug/粗糙版三合一客户端/Socket-Offline/GiGaViewer/offline.jpg");
 
             this.Refresh();
         }
@@ -182,7 +182,7 @@ namespace ImageCtrl
 
             m_imgShow = m_socketFunc.GetImage1(m_frameNum, m_scales[m_scaleIndex], m_showImgRect);//call socket image to save 
 
-            m_imgShow.Save("1.jpg");
+            m_imgShow.Save("E:/Workspace/VS2010/Aug/粗糙版三合一客户端/Socket-Offline/GiGaViewer/online.jpg");
 
             this.Refresh();
         }
@@ -391,11 +391,11 @@ namespace ImageCtrl
          
     public class SOCKETcomunication
     {
-        int port = 6666;  //2000
+        int port = 5555;  //2000
         int port1 = 2000;  //2000
         public Point m_RightDownOnImgRated = new Point();//add
 
-        string host = "127.0.0.1";
+        string host = "166.111.67.19";
        // string host="166.111.65.195"
         //Central server port=7000
         //166.111.66.151
@@ -658,13 +658,13 @@ namespace ImageCtrl
 
 
 
-           while (flag != imgData.Length)
-           {
-               flag += m_socket.Receive(imgData, flag, imgData.Length - flag, SocketFlags.None);
-           }
+          // while (flag != imgData.Length)
+         //  {
+          //     flag += m_socket.Receive(imgData, flag, imgData.Length - flag, SocketFlags.None);
+         //  }
             
-            for(int i=1000 ; i<1050 ; i++)
-                Console.WriteLine("This is the message you receive " + imgData[i]);
+           // for(int i=1000 ; i<1050 ; i++)
+           //     Console.WriteLine("This is the message you receive " + imgData[i]);
             
             return ConvertToBmp(m_showImgRect.Width, m_showImgRect.Height, imgData);
           

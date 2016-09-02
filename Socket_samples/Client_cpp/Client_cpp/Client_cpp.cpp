@@ -7,8 +7,8 @@
 
 #include<Windows.h>
 #pragma comment(lib,"ws2_32.lib")
-#define CONNECT_IP "127.0.0.1"
-#define CONNECT_PORT 2000
+#define CONNECT_IP "166.111.66.171"// "166.111.66.29"
+#define CONNECT_PORT 5555
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int err;
@@ -42,41 +42,41 @@ int _tmain(int argc, _TCHAR* argv[])
      {
          printf("连接成功!\n");
      }	
-	char receiveBuf[100];
-	char sendBuf[100]="receiveBuf";char sendBuf1[100]="Bufbrbher Bufbrbher444";
-	 
-	send(clientSocket,"hello,this is client",strlen("hello,this is client")+1,0);
- 	//Sleep(1);
-	if(recv(clientSocket,receiveBuf,101,0)<sizeof(int))
-	{
-		printf("can't receiver the message!");
-	}
-	else
-	{
-			printf("%s\n",receiveBuf);
-	}
-
-	send(clientSocket,"hello200",strlen("hello200")+1,0);
-
-	
-
-	send(clientSocket,sendBuf,101,0);
-	
-	send(clientSocket,sendBuf1,101,0);
-
-/*	if(recv(clientSocket,receiveBuf,101,0)<sizeof(int))
-	{
-		printf("can't receiver the message!");
-	}
-	else
-	{
-			printf("%s\n",receiveBuf);
-	}
-	send(clientSocket,receiveBuf,101,0);
-	recv(clientSocket,receiveBuf,101,0);
-	printf("%s\n",receiveBuf);*/
-	closesocket(clientSocket);
-	WSACleanup();
+//	char receiveBuf[100];
+//	char sendBuf[100]="receiveBuf";char sendBuf1[100]="Bufbrbher Bufbrbher444";
+//	 
+//	send(clientSocket,"hello,this is client",strlen("hello,this is client")+1,0);
+// 	//Sleep(1);
+//	if(recv(clientSocket,receiveBuf,101,0)<sizeof(int))
+//	{
+//		printf("can't receiver the message!");
+//	}
+//	else
+//	{
+//			printf("%s\n",receiveBuf);
+//	}
+//
+//	send(clientSocket,"hello200",strlen("hello200")+1,0);
+//
+//	
+//
+//	send(clientSocket,sendBuf,101,0);
+//	
+//	send(clientSocket,sendBuf1,101,0);
+//
+///*	if(recv(clientSocket,receiveBuf,101,0)<sizeof(int))
+//	{
+//		printf("can't receiver the message!");
+//	}
+//	else
+//	{
+//			printf("%s\n",receiveBuf);
+//	}
+//	send(clientSocket,receiveBuf,101,0);
+//	recv(clientSocket,receiveBuf,101,0);
+//	printf("%s\n",receiveBuf);*/
+//	closesocket(clientSocket);
+//	WSACleanup();
 	return 0;
 }
 

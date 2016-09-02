@@ -1,9 +1,12 @@
-﻿生成启动时间为 2016/8/7 21:29:40。
-     1>项目“E:\Workspace\VS2010\Aug\Socket_samples\Client_cpp\Client_cpp\Client_cpp.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
+﻿生成启动时间为 2016/8/28 22:13:14。
+     1>项目“E:\Workspace\VS2010\Aug\Socket_samples\Client_cpp\Client_cpp\Client_cpp.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Client_cpp.lastbuildstate”。
+       InitializeBuildStatus:
          正在创建“Debug\Client_cpp.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         所有输出均为最新。
+         e:\Workspace\VS2010\installation\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Client_cpp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
          e:\Workspace\VS2010\installation\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Client_cpp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Client_cpp.cpp
          Client_cpp.cpp
        Link:
@@ -13,8 +16,8 @@
        FinalizeBuildStatus:
          正在删除文件“Debug\Client_cpp.unsuccessfulbuild”。
          正在对“Debug\Client_cpp.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\Workspace\VS2010\Aug\Socket_samples\Client_cpp\Client_cpp\Client_cpp.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\Socket_samples\Client_cpp\Client_cpp\Client_cpp.vcxproj”(rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.49
+已用时间 00:00:00.68

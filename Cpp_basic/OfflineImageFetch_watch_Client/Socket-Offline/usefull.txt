@@ -1,0 +1,23 @@
+            Bitmap bmp = Bitmap.FromFile(@"D:\1.jpg") as Bitmap;
+            byte[] imgData = Bitmap2Data(bmp);
+
+            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+            sw.Start();
+            Bitmap clientBmp = Socket.GetImage(bmp.Width, bmp.Height, imgData);
+            sw.Stop();
+
+            MessageBox.Show(sw.ElapsedMilliseconds.ToString());
+
+            //clientBmp.Save(@"D:\1_client.jpg"); 
+
+
+
+
+//ImageList imageList = new ImageList();
+            //imageList.Images.Add(Image.FromFile(@"E:\Media-Controls-Play-icon.png"));
+            //imageList.Images.Add(Image.FromFile(@"E:\Pause-icon.png"));
+            //isoff = !isoff;
+            //Play.Image = isoff ? imageList.Images[0] : imageList.Images[1];
+             
+            //Play.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            //this.Play.Size = new System.Drawing.Size(40, 40);

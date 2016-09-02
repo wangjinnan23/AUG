@@ -6,8 +6,8 @@
 #include<iostream>
 #include<Windows.h>
 #pragma comment(lib,"ws2_32.lib")
-#define CONNECT_IP "166.111.65.211"
-#define CONNECT_PORT 1000
+#define CONNECT_IP "166.111.66.171"
+#define CONNECT_PORT 5555
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -29,9 +29,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	SOCKET serSocket=socket(AF_INET,SOCK_STREAM,0);//创建了可识别套接字
 	SOCKADDR_IN addr;
 	addr.sin_family=AF_INET;
-// 	addr.sin_addr.S_un.S_addr=htonl(INADDR_ANY);
+   	addr.sin_addr.S_un.S_addr=htonl(INADDR_ANY);
  	addr.sin_port=htons(CONNECT_PORT); //bind the port
-	addr.sin_addr.S_un.S_addr=inet_addr(CONNECT_IP);
+//	addr.sin_addr.S_un.S_addr=inet_addr(CONNECT_IP);
 	bind(serSocket,(SOCKADDR*)&addr,sizeof(SOCKADDR));//finish binding
 	listen(serSocket,5);//
 	SOCKADDR_IN clientsocket;

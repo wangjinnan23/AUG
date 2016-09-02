@@ -21,7 +21,7 @@ class ImageFetch
 	MPI_Datatype mpiDataForImage;
 	int channel;
 	int BlockRows, BlockCols;
-	int BlockWidth, BlockHeight;
+	int BlockWidth, BlockHeight; 
 	int Frame, Scale;
 	int Left, Right, Up, Down;
 	int BufferLength;

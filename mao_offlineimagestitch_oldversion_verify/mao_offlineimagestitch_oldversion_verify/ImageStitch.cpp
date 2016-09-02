@@ -966,7 +966,8 @@ void ImageStitch::ImageEachScale(IN const int frameIdx)
 
 	Mat src = m_imgOk.clone();
 	Mat dst;
-	for(int idx = 0; idx < m_nScaleCnt; idx++)  //生成每一层级的分块图像并保存
+	//	for(int idx = 0; idx < m_nScaleCnt; idx++)  //生成每一层级的分块图像并保存
+	for(int idx = 0; idx < 1; idx++)  //生成每一层级的分块图像并保存
 	{
 		saveImgModule(idx, frameIdx, src);
 		resize(src, dst, Size(src.cols / 2, src.rows / 2),(0,0),(0,0),CV_INTER_AREA);

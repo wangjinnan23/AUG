@@ -6,7 +6,12 @@
 
 
 #pragma once
+#define _WINDOWS
 
+
+#ifdef _WINDOWS
+#include <iomanip>
+#endif
 //#include "targetver.h"
 
 #include <stdio.h>
