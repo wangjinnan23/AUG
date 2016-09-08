@@ -179,6 +179,12 @@ void ImageStitch::loadParams() {
 	fs["GlobalWidth"]           >> m_nWidthGlobal;
 	fs["BlockHeight"]           >> m_nHeightBlock;
 	fs["BlockWidth"]            >> m_nWidthBlock;
+	cout<<"\nScaleCnt				"<<" "<<	m_nScaleCnt;
+	cout<<"\nCameraCnt				"<<" "<<	m_nCameraCnt;
+	cout<<"\nDirMapTable			"<<" "<<	m_sDirMapTable;
+	cout<<"\nFileFormatMapTable		"<<" "<<	m_sFileFormatMapTable;
+	cout<<"\nDirStitchParam			"<<" "<<	m_sDirStitchParam;
+	cout<<"\nFileFormatStitchParam	"<<" "<<	m_sFileFormatMapTable;
 	m_nBlockRows = (m_nHeightGlobal % m_nHeightBlock == 0) ? (m_nHeightGlobal / m_nHeightBlock) : (m_nHeightGlobal / m_nHeightBlock + 1);
 	m_nBlockCols = (m_nWidthGlobal % m_nWidthBlock == 0) ? (m_nWidthGlobal / m_nWidthBlock) : (m_nWidthGlobal / m_nWidthBlock + 1);
 	m_nBlockCnt = m_nBlockRows * m_nBlockCols;
