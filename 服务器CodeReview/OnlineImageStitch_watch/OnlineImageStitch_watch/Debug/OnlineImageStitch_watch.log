@@ -1,0 +1,33 @@
+﻿生成启动时间为 2016/8/4 2:43:24。
+     1>项目“E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\OnlineImageStitch_watch\OnlineImageStitch_watch.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\OnlineImageStitch_watch.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Workspace\VS2010\installation\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\OnlineImageStitch_watch.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Workspace\VS2010\installation\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OnlineImageStitch_watch.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OnlineImageStitch_watch.cpp
+         OnlineImageStitch_watch.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OnlineImageStitch_watch.exe.embed.manifest.res" Debug\OnlineImageStitch_watch_manifest.rc 
+       Link:
+         e:\Workspace\VS2010\installation\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\Debug\OnlineImageStitch_watch.exe" /INCREMENTAL /NOLOGO opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OnlineImageStitch_watch.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\Debug\OnlineImageStitch_watch.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\Debug\OnlineImageStitch_watch.lib" /MACHINE:X86 Debug\OnlineImageStitch_watch.exe.embed.manifest.res
+         Debug\OnlineImageStitch_watch.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\OnlineImageStitch_watch.exe.embed.manifest" /manifest Debug\OnlineImageStitch_watch.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\OnlineImageStitch_watch.exe.embed.manifest.res" Debug\OnlineImageStitch_watch_manifest.rc 
+       LinkEmbedManifest:
+         e:\Workspace\VS2010\installation\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\Debug\OnlineImageStitch_watch.exe" /INCREMENTAL /NOLOGO opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OnlineImageStitch_watch.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\Debug\OnlineImageStitch_watch.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\Debug\OnlineImageStitch_watch.lib" /MACHINE:X86 Debug\OnlineImageStitch_watch.exe.embed.manifest.res
+         Debug\OnlineImageStitch_watch.obj
+         Debug\stdafx.obj
+         OnlineImageStitch_watch.vcxproj -> E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\Debug\OnlineImageStitch_watch.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\OnlineImageStitch_watch.unsuccessfulbuild”。
+         正在对“Debug\OnlineImageStitch_watch.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Workspace\VS2010\Aug\OnlineImageStitch_watch\OnlineImageStitch_watch\OnlineImageStitch_watch.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.21
