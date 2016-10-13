@@ -355,10 +355,10 @@ namespace ImageCtrl
          
     public class SOCKETcomunication
     {
-        int port = 2000;  //2000
+        int port = 6666;  //2000
         public Point m_RightDownOnImgRated = new Point();//add
 
-        string host = "127.0.0.1";
+        string host = "166.111.67.1";
 
         //Central server port=7000
         //166.111.66.151
