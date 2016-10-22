@@ -358,7 +358,7 @@ namespace ImageCtrl
         int port = 5555;  //2000
         public Point m_RightDownOnImgRated = new Point();//add
 
-        string host = "166.111.64.252";
+        string host = "166.111.65.127";
        // string host="166.111.65.195"
         //Central server port=7000
         //166.111.66.151
